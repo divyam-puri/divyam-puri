@@ -108,17 +108,14 @@ $payment_statuses = ['All', 'Pending', 'Paid', 'Failed', 'Refunded'];
             overflow-y: auto;
         }
         
-        .sidebar .navbar-brand {
+        .navbar-brand {
             font-size: 1.8rem;
-            font-weight: 700 !important;
-            color: #2d2d2d !important;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 0.5rem;
+            font-weight: 700;
+            color: #2d2d2d;
         }
         
-        .sidebar .navbar-brand:hover {
-            color: #2d2d2d !important;
+        .navbar-brand:hover {
+            color: #2d2d2d;
         }
         
         .sidebar .nav-link {
@@ -210,11 +207,10 @@ $payment_statuses = ['All', 'Pending', 'Paid', 'Failed', 'Refunded'];
             <!-- Sidebar -->
             <div class="col-md-3 col-lg-2 sidebar p-0">
                 <div class="sidebar p-3">
-                    <div class="text-center mb-4">
-                        <a href="index.php" class="navbar-brand">
+                    <div class="container mb-4">
+                        <a class="navbar-brand" href="index.php">
                             <i class="bi bi-heart-fill text-danger me-2"></i>ManavikFab
                         </a>
-                        <small class="text-muted d-block">Admin Panel</small>
                     </div>
                     
                     <nav class="nav flex-column">
